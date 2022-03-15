@@ -30,7 +30,9 @@ To find the Boolean expression equivalent to the output values, we will use the 
 
 > ![](https://latex.codecogs.com/gif.latex?BS%20&plus;%20%5Cbar%7BS%7DA)
 
-## Creating Digital Circuit with the AND, OR and NOT gates
+## Creating Digital Circuit
+
+_all circuits were made in [logisim](http://www.cburch.com/logisim/) software, version 2.7.1._
 
 First, we will use the basic logical operations: AND, OR and NOT.
 

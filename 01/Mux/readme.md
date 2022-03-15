@@ -32,4 +32,15 @@ To find the Boolean expression equivalent to the output values, we will use the 
 
 ## Creating Digital Circuit with the AND, OR and NOT gates
 
+First, we will use the basic logical operations: AND, OR and NOT.
+
+![](basic_mux.png)
+
+Taking into account the universality of the NAND logic gate, we can convert the logic circuit using just this logic operation. 
+
+![](nand_mux.png)
+
+
+
+
 

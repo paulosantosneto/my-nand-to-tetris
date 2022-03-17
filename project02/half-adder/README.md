@@ -9,7 +9,7 @@
 
 Computing the Boolean expression, we have:
 
-- Output: ~AB + A~B
+- Output: (¬A)B + A(¬B)
 - Carry: AB
 
 ## Creating Digital Circuit

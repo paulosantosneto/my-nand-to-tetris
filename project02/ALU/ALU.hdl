@@ -1,0 +1,56 @@
+/**
+This file is part of www.nand2tetris.org
+and the book "The Elements of Computing Systems"
+by Nisan and Schocken, MIT Press.
+
+Author: Paulo Neto
+Date: 17-Mar-2022
+*/
+
+CHIP ALU {
+
+	IN x[16], y[16], 
+	zx, /* zero the x input? */ 
+	nx, /* negate the x input? */
+	zy, /* zero the y input? */
+	ny, /* negate the y input? */
+	f,  /* compute out = x + y (if 1) or x & y (if 0) */
+	no; /* negate the output? */
+	
+	OUT out[16], 
+	zr, /* 1 if (out == 0), 0 otherwise */
+	ng; /* 1 if (out < 0), 0 otherwise */
+
+	PARTS:
+		
+		Mux16 (a = x, b = false, sel = zx, out = znop);     /* zx */
+		
+		Not16 (in = znop, out = notzn);
+		Mux16 (a = znop, b = notzn, sel = nx, out = nxout); /* nx */
+
+		Mux16 (a = y, b = false, sel = zy, out = zyop);     /* zy */
+
+		Not16 (in = zyop, out = notzy);
+		Mux16 (a = zyop, b = notzy, sel = ny, out = nyout); /* ny */
+
+		Add16 (a = nxout, b = nyout, out = aAddb);
+		And16 (a = nxout, b = nyout, out = aAndb);
+		Mux16 (a = aAndb, b = aAddb, sel = f, out = fout);  /* f */
+
+		Not16 (in = fout, out = notf);
+		Mux16 (a = fout, b = notf, sel = no, out = noout);  /* no */
+
+		Or16Way (x = noout, out = fOr);
+		Not (in = fOr, out = zr);                            /* zr */
+
+		Or16 (a = false, b = noout, out[15] = ng);          /* ng */
+		Or16 (a = noout, b = false, out = out);    
+}	
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+/**
+This file is part of www.nand2tetris.org
+and the book "The Elements of Computing Systems"
+by Nisan and Schocken, MIT Press.
+File name: projects/01/Mux.hdl
+
+Author: Paulo Neto
+Date: 14-Mar-2022
+*/
+
+CHIP DMux8Way {
+
+	IN in, sel[3];
+	OUT a, b, c, d, e, f, g, h;
+
+	PARTS:
+
+		DMux (in = in, sel = sel[2], a = ina, b = inb);
+		DMux4Way (in = ina, sel = sel[0..1], a = a, b = b, c = c, d = d);
+		DMux4Way (in = inb, sel = sel[0..1], a = e, b = f, c = g, d = h);
+
+}

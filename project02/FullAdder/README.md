@@ -14,8 +14,6 @@ First, it is necessary to evaluate the half-adder and full-adder truth tables.
 | 1 | 1  | 1 | 1 |  1 |
 
 ## Half Adder Truth Table
-=======
-## Full Adder Truth Table
 
 | A | B |  S | Co |
 | :--: | :--: | :--: | :--: | 

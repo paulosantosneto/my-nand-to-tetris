@@ -6,36 +6,26 @@ The course is taught by Doctors Shimon Schocken and Noam Nisan. The files availa
 
 # Organization
 
-## Project 01
-
-- [And](./project01/And)
-- [And16](./project01/And16)
-- [Or](./project01/Or)
-- [Or16](./project01/Or16)
-- [Or8Way](./project01/Or8Way)
-- [Not](./project01/Not)
-- [Not16](./project01/Not16)
-- [Xor](./project01/Xor)
-- [Mux](./project01/Mux)
-- [Mux16](./project01/Mux16)
-- [Mux4Way](./project01/Mux4Way)
-- [Mux8Way](./project01/Mux8Way)
-- [DMux](./project01/DMux)
-- [DMux4Way](./project01/DMux4Way)
-- [DMux8Way16](./project01/DMux8Way16)
-
-## Project 02
-
-- [ALU](./project02/ALU)
-- [And16](./project02/And16)
-- [HalfAdder](./project02/HalfAdder)
-- [FullAdder](./project02/FullAdder)
-- [Inc16](./project02/Inc16)
-- [Or16Way](./project02/Or16Way)
+| Project 01 | Project 02  | Project 03 | Project 04 | Project 05 | Project 06 |
+| :----------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| [And](./project01/And) |   [ALU](./project02/ALU)   |
+| [And16](./project01/And16) |  [Add16](./project02/Add16)   |
+| [Or](./project01/Or) | [HalfAdder](./project02/HalfAdder) |
+| [Or16](./project01/Or16) | [FullAdder](./project02/FullAdder) |
+| [Or8Way](./project01/Or8Way) | [Inc16](./project02/Inc16) | 
+| [Not](./project01/Not) | [Or16Way](./project02/Or16Way) |
+| [Not16](./project01/Not16) | 
+| [Xor](./project01/Xor) |
+| [Mux](./project01/Mux) | 
+| [Mux16](./project01/Mux16) |
+| [Mux4Way16](./project01/Mux4Way16) | 
+| [Mux8Way16](./project01/Mux8Way16) |
+| [DMux](./project01/DMux) | 
+| [DMux4Way](./project01/DMux4Way) |
+| [DMux8Way16](./project01/DMux8Way16) |
 
 ## License & copyright
 
 © Paulo S Neto
 
 Licensed under the [MIT License](LICENSE).
-

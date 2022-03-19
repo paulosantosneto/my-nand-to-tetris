@@ -13,9 +13,9 @@ The course is taught by Doctors Shimon Schocken and Noam Nisan. The files availa
 | [Or](./project01/Or) | [HalfAdder](./project02/HalfAdder) | [RAM8](./project03/a/RAM8) |
 | [Or16](./project01/Or16) | [FullAdder](./project02/FullAdder) | [RAM64](./project03/a/RAM64) |
 | [Or8Way](./project01/Or8Way) | [Inc16](./project02/Inc16) | [PC](./project03/a/PC) |
-| [Not](./project01/Not) | [Or16Way](./project02/Or16Way) |
-| [Not16](./project01/Not16) | 
-| [Xor](./project01/Xor) |
+| [Not](./project01/Not) | [Or16Way](./project02/Or16Way) | [RAM512](./project03/b/RAM12) |
+| [Not16](./project01/Not16) |                            | [RAM4K](./project03/b/RAM4K) |                   
+| [Xor](./project01/Xor) |                                | [RAM16K](./project03/b/RAM16K) |
 | [Mux](./project01/Mux) | 
 | [Mux16](./project01/Mux16) |
 | [Mux4Way16](./project01/Mux4Way16) | 

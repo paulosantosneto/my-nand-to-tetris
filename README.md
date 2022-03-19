@@ -8,11 +8,11 @@ The course is taught by Doctors Shimon Schocken and Noam Nisan. The files availa
 
 | Project 01 | Project 02  | Project 03 | Project 04 | Project 05 | Project 06 |
 | :----------: | :--------: | :--------: | :--------: | :--------: | :--------: |
-| [And](./project01/And) |   [ALU](./project02/ALU)   | [Bit](./a/project03/Bit) |
-| [And16](./project01/And16) |  [Add16](./project02/Add16)   | [Register](./a/project03/Register) |
-| [Or](./project01/Or) | [HalfAdder](./project02/HalfAdder) | [RAM8](./a/project03/RAM8) |
-| [Or16](./project01/Or16) | [FullAdder](./project02/FullAdder) | [RAM64](./a/project03/RAM64) |
-| [Or8Way](./project01/Or8Way) | [Inc16](./project02/Inc16) | [PC](./a/project03/PC) |
+| [And](./project01/And) |   [ALU](./project02/ALU)   | [Bit](./project03/a/Bit) |
+| [And16](./project01/And16) |  [Add16](./project02/Add16)   | [Register](./project03/a/Register) |
+| [Or](./project01/Or) | [HalfAdder](./project02/HalfAdder) | [RAM8](./project03/a/RAM8) |
+| [Or16](./project01/Or16) | [FullAdder](./project02/FullAdder) | [RAM64](./project03/a/RAM64) |
+| [Or8Way](./project01/Or8Way) | [Inc16](./project02/Inc16) | [PC](./project03/a/PC) |
 | [Not](./project01/Not) | [Or16Way](./project02/Or16Way) |
 | [Not16](./project01/Not16) | 
 | [Xor](./project01/Xor) |
